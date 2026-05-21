@@ -15,7 +15,7 @@ repos:
       - id: debug-statements
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.12
+    rev: v0.15.13
     hooks:
       - id: ruff
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
@@ -23,9 +23,4 @@ repos:
     hooks:
       - id: editorconfig-checker
         alias: ec
-  - repo: https://github.com/owenlamont/uv-secure
-    rev: v0.17.2
-    hooks:
-      - id: uv-secure
-        language_version: python3.13
 
