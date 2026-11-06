@@ -15,7 +15,7 @@ repos:
       - id: debug-statements
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.17.2
+    rev: v0.17.3
     hooks:
       - id: ruff
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
@@ -24,6 +24,6 @@ repos:
       - id: editorconfig-checker
         alias: ec
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.49.1
+    rev: v0.50.0
     hooks:
       - id: markdownlint
