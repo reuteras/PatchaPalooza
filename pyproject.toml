@@ -1,9 +1,9 @@
 [project]
 name = "patchapalooza"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "A comprehensive tool that provides an insightful analysis of Microsoft's monthly security updates."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
     "requests>=2.34.2",
@@ -11,6 +11,4 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    "ruff>=0.16.2",
-]
+dev = ["ruff>=0.16.2"]
